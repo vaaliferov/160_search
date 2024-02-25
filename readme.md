@@ -1,5 +1,5 @@
 #### Search Engine (vector index)
-Fast and efficient vector search engine for Service Manager. Objects in index: requests, incidents, and problems (~40M items, ~2.5 years). Features: ~300 requests / sec, ~6 Gb of RAM, ~2.5 Gb of disk space. Dependencies: lxml, psycopg2, pymorphy2, asyncio, aiohttp, youtokentome, numpy, polars, gensim, faiss-cpu.
+Fast and efficient vector search engine for Service Manager. Objects in index: requests, incidents, and problems (~40M items, ~2.5 years). Features: ~300 requests / sec, ~6 Gb of RAM, ~2.5 Gb of disk space. Dependencies: lxml, psycopg2, pymorphy2, asyncio, aiohttp, youtokentome, numpy, polars, gensim, faiss-cpu. </br></br>
 
 ##### Initial Load
 Steps: select, transform, extract  descriptions, clean, tokenize, lemmatize, train Word2Vec, vectorize descriptions, train compressor, encode descriptions, build PQ index, build IVFPQ index.
@@ -26,7 +26,7 @@ Basically, this is an aiohttp web server application with 2 background tasks: in
 </br></br><p align='center'><img src='assets/06a.svg'></p></br>
 
 #### Search Engine (Inverted Index)
-Fast and efficient inverted index search engine for Service Manager. Objects in index: contacts, departments, and services (~5M items, ~2.5 years). Features: ~800 requests / sec, 5 Gb of RAM, 2 Gb of disk space. Dependencies: dawg, psycopg2, pymorphy2, asyncio, aiohttp, numpy, polars.
+Fast and efficient inverted index search engine for Service Manager. Objects in index: contacts, departments, and services (~5M items, ~2.5 years). Features: ~800 requests / sec, 5 Gb of RAM, 2 Gb of disk space. Dependencies: dawg, psycopg2, pymorphy2, asyncio, aiohttp, numpy, polars. </br></br>
 
 ##### Exact Match Search
 An inverted index is basically a mapping from tokens to sets of documents (ids).
