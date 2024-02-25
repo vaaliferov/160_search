@@ -1,8 +1,5 @@
 #### Search Engine (vector index)
-Fast and efficient vector search engine for Service Manager. Objects in index: requests, incidents, and problems (~40M items, ~2.5 years). Features: ~300 requests / sec, ~6 Gb of RAM, ~2.5 Gb of disk space. Dependencies: lxml, psycopg2, pymorphy2, asyncio, aiohttp, youtokentome, numpy, polars, gensim, faiss-cpu. </br></br>
-
-##### Initial Load
-Steps: select, transform, extract  descriptions, clean, tokenize, lemmatize, train Word2Vec, vectorize descriptions, train compressor, encode descriptions, build PQ index, build IVFPQ index.
+Fast and efficient vector search engine for Service Manager. Objects in index: requests, incidents, and problems (~40M items, ~2.5 years). Features: ~300 requests / sec, ~6 Gb of RAM, ~2.5 Gb of disk space. Dependencies: lxml, psycopg2, pymorphy2, asyncio, aiohttp, youtokentome, numpy, polars, gensim, faiss-cpu.
 </br></br><p align='center'><img src='assets/01a.svg'></p></br>
 
 ##### Text Vectorization
