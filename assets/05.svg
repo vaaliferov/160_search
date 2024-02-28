@@ -8,8 +8,8 @@
    version="1.1"
    id="svg1348"
    inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
-   sodipodi:docname="14.svg"
-   inkscape:export-filename="14a.svg"
+   sodipodi:docname="05.svg"
+   inkscape:export-filename="05a.svg"
    inkscape:export-xdpi="96"
    inkscape:export-ydpi="96"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
@@ -28,9 +28,9 @@
      inkscape:document-units="mm"
      showgrid="false"
      inkscape:zoom="0.84096521"
-     inkscape:cx="566.61084"
+     inkscape:cx="486.34592"
      inkscape:cy="426.89043"
-     inkscape:window-width="989"
+     inkscape:window-width="1398"
      inkscape:window-height="1211"
      inkscape:window-x="26"
      inkscape:window-y="23"
@@ -157,6 +157,14 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1">
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.264999;stroke-dasharray:0.476999, 22.896;stroke-opacity:0"
+       id="rect662"
+       width="197.48955"
+       height="100.35226"
+       x="54.957485"
+       y="50.032364"
+       ry="7.8685308" />
     <rect
        style="fill:none;stroke:#969696;stroke-width:0.476998;stroke-dasharray:none;stroke-opacity:1"
        id="rect979-0-0-0"
